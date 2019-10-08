@@ -8,7 +8,7 @@
   - text: About
     url: /pages/about
   - text: Routes
-  url: /route
+    url: /route
 - text: Services
   url: /pages/services
 - text: Contact
