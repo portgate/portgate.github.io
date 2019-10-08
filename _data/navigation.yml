@@ -2,28 +2,14 @@
 
 - text: Home
   url: /
-- text: About
-  url: /pages/about
-- text: Blog
-  url: /pages/blog/
-- text: Services
-  url: /pages/services
-- text: Pages
+- text: Company
   url: #
   submenu:
-  - text: Services
-    url: /pages/services
-  - text: About Us
+  - text: About
     url: /pages/about
-  - text: 404
-    url: /pages/404
-  - text: Blog
-    url: /pages/blog
-  - text: Oue Team
-    url: /pages/team
-  - text: Project
-    url: /pages/projects
-  - text: Testimonials
-    url: /pages/testimonial
+  - text: Routes
+  url: /routes
+- text: Services
+  url: /pages/Services
 - text: Contact
   url: /pages/contact
