@@ -28,7 +28,7 @@ collections:
   works:
     output: true
   routes: 
-    output: ture
+    output: true
 
 
 feed:
