@@ -27,6 +27,8 @@ cover_image: "/assets/img/bg/page-title.jpg"
 collections:
   works:
     output: true
+  routes: 
+    output: true
 
 
 feed:
