@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Air Transportation
 image: /assets/img/air1.jpg
 ---
