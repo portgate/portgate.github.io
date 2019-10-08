@@ -1,14 +1,12 @@
-#Please use the main menu items under the "text"
-
 - text: Home
   url: /
 - text: Company
-  url: #
+  url:
   submenu:
-  - text: About
-    url: /pages/about
-  - text: Routes
-    url: /route
+    - text: About
+      url: /pages/about
+    - text: Routes
+      url: pages/route
 - text: Services
   url: /pages/services
 - text: Contact
