@@ -8,6 +8,6 @@
     - text: About
       url: /pages/about
     - text: Routes
-      url: pages/route
+      url: /pages/route
 - text: Contact
   url: /pages/contact
