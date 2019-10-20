@@ -1,6 +1,6 @@
 - text: Home
   url: /
-- text: Library
+- text: Services
   url: /pages/services
 - text: Company
   url:
@@ -9,5 +9,7 @@
       url: /pages/about
     - text: Routes
       url: /pages/route
+- text: Library
+  url: /pages/library      
 - text: Contact
   url: /pages/contact
