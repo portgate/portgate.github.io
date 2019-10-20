@@ -4,7 +4,7 @@
 }
 
 .services-slider ul.slick-dots li button {
-    background: #000531;
+    background: #383738;
 }
 .services-slider ul.slick-dots li.slick-active button{
     background-color: #ffa100
@@ -31,7 +31,7 @@ section.experience-section.padding-bottom0.section-padding {
     position: absolute;
     bottom: -50px;
     width: 100%;
-    background: #000531;
+    background: #383738;
     padding-top: 10px;
     padding-bottom: 10px;
     transition: .6s
@@ -60,7 +60,7 @@ section.experience-section.padding-bottom0.section-padding {
 
 .four-team-title h4 {
     margin-bottom: 10px;
-    color: #000531;
+    color: #383738;
     font-weight: 700;
 }
 .four-team-title p {

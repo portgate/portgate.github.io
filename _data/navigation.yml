@@ -1,5 +1,7 @@
 - text: Home
   url: /
+- text: Library
+  url: /pages/services
 - text: Company
   url:
   submenu:
@@ -7,7 +9,5 @@
       url: /pages/about
     - text: Routes
       url: pages/route
-- text: Services
-  url: /pages/services
 - text: Contact
   url: /pages/contact

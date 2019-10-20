@@ -155,7 +155,7 @@ select.language {
     line-height: 50px;
     font-size: 30px;
     font-weight: 700;
-    color: #000531;
+    color: #383738;
     left: 0;
     z-index: 2;
     cursor: pointer
@@ -272,7 +272,7 @@ section.counter-section {
 }
 
 .single-counter:hover .icon {
-    background: #000531;
+    background: #383738;
     color: #ffa100;
 }
 
@@ -299,7 +299,7 @@ section.counter-section {
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 700;
-    color: #000531;
+    color: #383738;
 }
 
 .content p {
@@ -326,7 +326,7 @@ section.services-section.section-padding {
 }
 
 .section-title {
-    color: #000531;
+    color: #383738;
     font-size: 18px;
     margin-bottom: 60px;
 }
@@ -338,13 +338,13 @@ section.services-section.section-padding {
 }
 
 .single-services .icon {
-    color: #000531;
+    color: #383738;
     font-size: 25px;
     transition: .6s
 }
 
 .single-services:hover .icon {
-    background-color: #000531;
+    background-color: #38373894;
     color: #ffa100;
 }
 
@@ -392,7 +392,7 @@ section.why-choose-section .section-title {
 
 .single-why-choose:hover .icon {
     background: #ffa100;
-    color: #000531;
+    color: #383738;
 }
 
 .single-why-choose .icon {
@@ -436,7 +436,7 @@ section.recent-work {
 
 .single-project h4 {
     margin-bottom: 10px;
-    color: #000531;
+    color: #383738;
     font-size: 20px;
     font-weight: 700;
     transition: .6s
@@ -654,7 +654,7 @@ ul.slick-dots li.slick-active button {
 .blog-title .date h4 {
     margin-bottom: 0;
     font-size: 18px;
-    color: #000531;
+    color: #383738;
     font-weight: 700;
     line-height: 30px;
     text-transform: capitalize;
@@ -668,7 +668,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-blog p {
-    color: #000531;
+    color: #383738;
     line-height: 24px;
     letter-spacing: .5px
 }
@@ -676,7 +676,7 @@ ul.slick-dots li.slick-active button {
 a.read-more {
     padding: 7px 15px;
     display: inline-block;
-    background: #000531;
+    background: #383738;
     color: #fff;
     font-weight: 700;
     font-size: 14px;
@@ -696,12 +696,12 @@ a.read-more:hover {
 }
 
 .blog-slider-active ul.slick-dots li button {
-    border: 1px solid #000531;
+    border: 1px solid #383738;
     background: #fff;
 }
 
 .blog-slider-active ul.slick-dots li.slick-active button {
-    background-color: #000531
+    background-color: #383738
 }
 
 
@@ -809,7 +809,7 @@ a.read-more:hover {
 
 .submitbtn button:hover {
     background: #fff;
-    color: #000531;
+    color: #383738;
 }
 .get-in-touch h4 {
     position: relative;
@@ -817,7 +817,7 @@ a.read-more:hover {
     margin-bottom: 0;
     font-size: 22px;
     font-weight: 700;
-    color: #000531
+    color: #383738
 }
 
 
@@ -839,7 +839,7 @@ a.read-more:hover {
 /*start footer section*/
 
 section.footer-area.section-padding {
-    background: #000531;
+    background: #383738;
     padding-bottom: 60px
 }
 
@@ -973,7 +973,7 @@ h2.widget-title {
 
 .copyright-section {
     padding: 20px 0;
-    background: #000531;
+    background: #383738;
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
@@ -1035,7 +1035,7 @@ section.page-header-section:before {
 }
 
 .get-in-touch-btn a:hover {
-    background: #000531;
+    background: #383738;
 }
 
 .paget-title {
@@ -1064,7 +1064,7 @@ ol.breadcrumb li {
 .breadcrumb li,
 .breadcrumb a,
 .breadcrumb li.active {
-    color: #000531;
+    color: #383738;
     font-size: 14px;
     font-weight: 700
 }
@@ -1080,7 +1080,7 @@ ol.breadcrumb li {
 
 .quote-text h4 {
     margin-bottom: 0;
-    color: #000531;
+    color: #383738;
     line-height: 50px;
     font-weight: 300;
     font-size: 24px;
@@ -1108,7 +1108,7 @@ ol.breadcrumb li {
 .team-social-icon a {
     background: #ffffff none repeat scroll 0 0;
     border-radius: 50%;
-    color: #000531;
+    color: #383738;
     display: inline-block;
     font-size: 18px;
     height: 50px;
@@ -1122,7 +1122,7 @@ ol.breadcrumb li {
 
 .team-social-icon a:hover {
     background: #ffb400;
-    color: #000531
+    color: #383738
 }
 
 .team-social-icon a:last-child {
@@ -1197,7 +1197,7 @@ ol.breadcrumb li {
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 10px;
-    color: #000531;
+    color: #383738;
 }
 
 .team-title p {
@@ -1395,7 +1395,7 @@ ul.pagination li {
 .blog-list-date .date h4 {
     margin-bottom: 0;
     font-size: 18px;
-    color: #000531;
+    color: #383738;
     font-weight: 700;
     line-height: 30px;
     text-transform: capitalize;
@@ -1427,7 +1427,7 @@ ul.pagination li {
 
 .single-blog.list-blog-item .news-meta a {
     padding-right: 5px;
-    color: #000531;
+    color: #383738;
     text-transform: capitalize;
     transition: all .4s linear 0s;
 }
@@ -1473,7 +1473,7 @@ ul.pagination li {
 
 .widget-area .widget .widget-title {
     font-weight: 700;
-    color: #000531;
+    color: #383738;
     text-transform: uppercase;
     margin-bottom: 40px;
 }
@@ -1482,7 +1482,7 @@ ul.pagination li {
     display: block;
     line-height: 40px;
     border-bottom: 1px solid #eee;
-    color: #000531
+    color: #383738
 }
 
 .widget-area .widget ul li a span {
@@ -1497,7 +1497,7 @@ ul.pagination li {
 .single-recent-post .recent-content p {
     margin-bottom: 0;
     font-weight: 600;
-    color: #000531;
+    color: #383738;
 }
 
 .single-recent-post {
@@ -1518,7 +1518,7 @@ ul.pagination li {
 }
 
 .widget.tag a:hover {
-    background-color: #000531;
+    background-color: #383738;
     color: #fff
 }
 
@@ -1558,7 +1558,7 @@ section.blog-area.blog-grid-page.section-padding .single-blog {
 
 .figure-caption {
     font-size: 100%;
-    color: #000531;
+    color: #383738;
 }
 
 .post-share-link {
@@ -1573,7 +1573,7 @@ section.blog-area.blog-grid-page.section-padding .single-blog {
 }
 
 .tag.posttag a {
-    color: #000531;
+    color: #383738;
     margin-right: 10px;
     transition: .4s;
     text-transform: capitalize;
@@ -1602,7 +1602,7 @@ section.blog-area.blog-grid-page.section-padding .single-blog {
 
 .share a:hover {
     color: #fff;
-    background: #000531;
+    background: #383738;
 }
 
 .share {
@@ -1622,7 +1622,7 @@ section.blog-area.blog-grid-page.section-padding .single-blog {
 .author-details .about-author h4 {
     font-size: 18px;
     font-weight: 700;
-    color: #000531;
+    color: #383738;
 }
 
 .author-details .author-img {
@@ -1651,7 +1651,7 @@ section.blog-area.blog-grid-page.section-padding .single-blog {
 .comment-list ul li .commnenter-details h4 {
     font-size: 18px;
     font-weight: 700;
-    color: #000531;
+    color: #383738;
     margin-bottom: 5px;
 }
 
@@ -1664,7 +1664,7 @@ section.blog-area.blog-grid-page.section-padding .single-blog {
 .comment-list ul li .commnenter-details .reply a {
     width: 70px;
     display: inline-block;
-    background: #000531;
+    background: #383738;
     text-align: center;
     line-height: 30px;
     color: #fff;
@@ -1720,14 +1720,14 @@ section.blog-area.blog-grid-page.section-padding .single-blog {
 }
 
 .submit-button button:hover {
-    background-color: #000531;
+    background-color: #383738;
     color: #fff;
 }
 
 h2.leave-comment {
     font-weight: 700;
     font-size: 24px;
-    color: #000531;
+    color: #383738;
     margin-bottom: 40px;
 }
 
@@ -1795,7 +1795,7 @@ h4.project-heading:before {
 
 .project-details ul li span {
     display: block;
-    color: #000531;
+    color: #383738;
     font-weight: 700;
     margin-bottom: 5px;
 }
@@ -1811,7 +1811,7 @@ h4.project-heading:before {
 
 .project-description h2 {
     font-weight: 700;
-    color: #000531;
+    color: #383738;
     border-bottom: 1px solid #eee;
     padding-bottom: 20px;
 }
@@ -1844,7 +1844,7 @@ h4.project-heading:before {
     text-transform: uppercase;
     font-weight: 500;
     color: #fff;
-    background-color: #000531;
+    background-color: #383738;
 }
 
 .services-image-single:hover .services-hover {
@@ -1857,7 +1857,7 @@ h4.project-heading:before {
 
 .services-image-single:hover .icon {
     background: transparent;
-    color: #000531;
+    color: #383738;
 }
 
 .services-image-single .single-services {
@@ -1880,7 +1880,7 @@ section.services-image-page.section-padding {
 
 .single-services-title h2 {
     font-weight: 700;
-    color: #000531;
+    color: #383738;
 }
 
 .single-service-img {

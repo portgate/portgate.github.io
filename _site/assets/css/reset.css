@@ -299,7 +299,7 @@ input:-webkit-autofill:focus {
 .pagination > li > span {
     background-color: #ffa100;
     border: 0 none;
-    color: #000531;
+    color: #383738;
     display: inline-block;
     float: none;
     font-size: 14px;
@@ -320,7 +320,7 @@ input:-webkit-autofill:focus {
 .pagination > li > a:hover,
 .pagination > li > span:focus,
 .pagination > li > span:hover {
-    background-color: #000531;
+    background-color: #383738;
     border-color: transparent;
     color: #fff;
     z-index: 2;

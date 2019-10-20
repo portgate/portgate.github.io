@@ -31,7 +31,7 @@ section.blog-area.blogbg.blog-header.section-padding {
 .blog-thumb .date h4 {
     margin-bottom: 0;
     font-size: 18px;
-    color: #000531;
+    color: #383738;
     font-weight: 700;
     line-height: 30px;
     text-transform: capitalize;
@@ -48,6 +48,6 @@ section.blog-area.blogbg.blog-header.section-padding {
     margin-top: 30px;
 }
 .dream-quote-text a.videopopup:hover{
-    background: #000531;
+    background: #383738;
     color: #ffa100
 }
