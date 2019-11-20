@@ -4,18 +4,26 @@
             {% if link.submenu %}
             <li class="{% if link.url == page.url %} active {% endif %}">
               <a href="{{link.url}}">{{link.text}}</a>
-            <ul> 
+            <ul>
             {% for sublink in link.submenu %}
-                <li><a href="{{sublink.url}}">{{sublink.text}}</a></li>   
+                <li><a href="{{sublink.url}}">{{sublink.text}}</a></li>
             {% endfor %}
              </ul>
             </li>
             {% else %}
-            <li class="{% if link.url == page.url %} active {% endif %}"> 
+            <li class="{% if link.url == page.url %} active {% endif %}">
               <a href="{{link.url}}">{{link.text}}</a>
             </li>
             {% endif %}
+            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+            {% for page in pages %}
+            < li >
+            < a href = "{{ page.url }}"
+            class = "{{ page.lang }}"
+            > {{ page.lang }}
+            </ li >
+            {% endfor %}
         {% endfor %}
-       
+
     </ul>
 </div>
