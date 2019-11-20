@@ -26,3 +26,11 @@
   url: /pages/library
 - text: Contact
   url: /pages/contact
+- text: Language
+  submenu:
+  - text: English
+    url: /index
+  - text: Chinese
+    url: /indexcn
+  - text: Russian
+    url: /indexru
