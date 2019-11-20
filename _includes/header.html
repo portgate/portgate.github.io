@@ -1,12 +1,16 @@
 <!-- start header section -->
 <header id="header" class="header-area header-one">
-      <div class="topbar-area justify-content-center">
+      <div class="topbar-area">
+        <div class="row justify-content-between">
+            <div class="col-md-8 text-left">
 
+            </div>
             <div class="col-md-4 text-right">
                   <ul class="menu">
                   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                   {% for page in pages %}   <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a>  {% endfor %}
 </ul>
+        </div>
     </div>
 </div>
     <div class="menu-area">
