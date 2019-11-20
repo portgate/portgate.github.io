@@ -2,10 +2,10 @@
 <header id="header" class="header-area header-one">
       <div class="topbar-area">
         <div class="row justify-content-between">
-            <div class="col-md-11 text-left">
+            <div class="col-md-10 text-left">
 
             </div>
-            <div class="col-md-1 text-left">
+            <div class="col-md-2 text-left">
                   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                   {% for page in pages %}   <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a>  {% endfor %}
         </div>
