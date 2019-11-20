@@ -1,5 +1,25 @@
 <!-- start header section -->
 <header id="header" class="header-area header-one">
+  <div class="topbar-area">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-8 text-left">
+                <div class="topbar-list">
+                    <div class="single-topbar">
+                    </div>
+                    <div class="single-topbar">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-right">
+                <div class="topbar-social">
+                  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                  {% for page in pages %}   <li><a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a>  </li> {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="menu-area">
         <div class="container">
             <div class="row">
