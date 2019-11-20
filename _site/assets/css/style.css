@@ -49,9 +49,9 @@ Version: 1.0
     background: #f2f2f2;
     color: #000000;
     font-family: 'Oxygen', sans-serif;
-    padding: 15px 0;
-    font-weight: 600;
-    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 200;
+    font-size: 12px;
 }
 
 select.language {
@@ -1372,7 +1372,7 @@ section.services-area.services-page.section-padding {
 }
 .author-img img {
     max-height: 130px;
-    object-fit: cover;  
+    object-fit: cover;
 }
 
 .single-blog.list-blog-item a.read-more {
@@ -1914,4 +1914,3 @@ section.services-image-page.section-padding {
 
 
 /*end of services details page*/
-
