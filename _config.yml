@@ -1,13 +1,13 @@
 title: "Porgate - We Open Gates for Your Goods"
 email: "info@portgate.ge"
 description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://portgate.ge" # the base hostname & protocol for your site, e.g. http://example.com or https://construction-jk.netlify.com
 facebook_url: https://www.facebook.com/portgatellc
 logo: "/assets/img/logo.png"
 logo_2: "/assets/img/logo-dark.png"
-mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
-mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
+mailchimp_list: ""
+mailchimp_input_name: ""
 
 permalink: "/:title"
 
@@ -36,7 +36,7 @@ feed:
     posts:
       path: "/index.xml"
 
-########################################################
+#########################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
 pagination:
