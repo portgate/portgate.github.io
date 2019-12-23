@@ -4,18 +4,17 @@
             {% if link.submenu %}
             <li class="{% if link.url == page.url %} active {% endif %}">
               <a href="{{link.url}}">{{link.text}}</a>
-            <ul>
+            <ul> 
             {% for sublink in link.submenu %}
-                <li><a href="{{sublink.url}}">{{sublink.text}}</a></li>
+                <li><a href="{{sublink.url}}">{{sublink.text}}</a></li>   
             {% endfor %}
              </ul>
             </li>
             {% else %}
-            <li class="{% if link.url == page.url %} active {% endif %}">
+            <li class="{% if link.url == page.url %} active {% endif %}"> 
               <a href="{{link.url}}">{{link.text}}</a>
             </li>
             {% endif %}
         {% endfor %}
-
     </ul>
 </div>
