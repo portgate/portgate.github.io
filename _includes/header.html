@@ -15,11 +15,8 @@
                 </div>
                 <div class="col-md-4 text-right">
                     <div class="topbar-social">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-google-plus"></a>
-                        <a href="#" class="fa fa-pinterest"></a>
-                        <a href="#" class="fa fa-youtube"></a>
+                        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                        {% for page in pages %}   <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a>  {% endfor %}
                     </div>
                 </div>
             </div>
@@ -41,3 +38,4 @@
     </div>
 </header>
 <!-- end of header section -->
+

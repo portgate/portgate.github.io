@@ -1,0 +1,28 @@
+- text: ГЛАВНАЯ
+  url: /indexru
+- text: УСЛУГИ
+  url: /pages/servicesru
+  submenu:
+  - text: Дорожные перевозки
+    url: /works/roadru
+  - text: Морские перевозки
+    url: /works/marineru
+  - text: Ж/Д перевозки
+    url: /works/railru
+  - text: Авиаперевозки
+    url: /works/airru
+  - text: Проектные перевозки
+    url: /works/projectru
+  - text: Другие услуги
+    url: /works/otherru
+- text: КОМПАНИЯ
+  url:
+  submenu:
+    - text: О КОМПАНИИ
+      url: /pages/aboutru
+    - text: МАРШРУТЫ
+      url: /pages/routeru
+- text: БИБЛИОТЕКА
+  url: /pages/libraryru
+- text: КОНТАКТЫ
+  url: /pages/contactru
